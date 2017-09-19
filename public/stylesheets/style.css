@@ -1,0 +1,182 @@
+/* style.css
+ * This file provides css styles.
+ */
+
+body,html {
+	background-image: url('../images/index.png');
+	height: 100%;
+	margin: 0 auto;
+	padding: 0;
+	font-family: "Exo 2", sans-serif;
+	background-repeat: repeat-y;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+/*Style for index.html*/
+.my-wrapper{
+	height: 100%;
+}
+
+.no-border{
+	margin-bottom: 0 !important;
+}
+
+#f1{
+	background-color: #83d536;	
+	min-height: 75px;
+	max-height: 75px;
+}
+
+#topcop-title{
+	background-color: #363636;	
+	min-height: 125px;
+	max-height: 125px;
+	font-size: 15px;
+}
+
+.opaco{
+	background-color: #363636;
+	opacity: 0.9;
+}
+
+.responsive-img{
+	max-width: 70% !important;
+}
+
+.justified{
+	text-align: justify;
+    text-justify: inter-word;
+}
+
+.no-margin{
+	margin:0px 0px -17px 0px !important;
+}
+
+.no-margin2{
+	margin:0px 0px -11px 0px !important;
+}
+
+
+
+.no-padding{
+	padding: 0 !important;
+	letter-spacing: 4px;
+}
+
+#teste{
+	font-size: 13px;
+}
+
+
+
+#teste1{
+	background-color: #363636;
+	opacity: 0.7;
+	height: 100%;
+	width: 100%;
+}
+
+.clip-adjust{
+	 width: 60%;
+}
+
+@media only screen and (max-width: 500px) {
+   .adjusted{
+	   padding-right: 20px !important;
+   }
+} 
+
+
+/*Style for enablement.html*/
+
+.bg-div{
+	background-image: url('../images/serrilhado.png');
+	height: 100%;
+	margin: 0 auto;
+	padding: 0;
+	background-repeat: repeat-x;
+	background-size: 100% 100%;
+}
+
+.enablement{
+	font-family: "Oswald", sans-serif;
+}
+
+.spaced{
+	letter-spacing: 1px;
+}
+.spaced2{
+	letter-spacing: 0.5px;
+}
+
+.bg-row{
+	background-color: #242424;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+.no-margin3{
+	margin: 20px 0px -11px 0px !important;
+}
+
+.no-margin4{
+	margin: 0px 0px 20px 0px !important;
+}
+
+.no-padding2{
+	padding: 0 !important;
+}
+
+
+.hr-style{
+	
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75));
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border-color:white;
+	background-color: white;
+}
+
+.hr-style-ver{
+	
+    border: 0;
+	width: 100px;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75));
+	border-color:white;
+	background-color: white;
+	transform: rotate(90deg) !important;
+}
+
+.title{
+	font-size: 13pt;
+}
+.p-title{
+	font-size: 8pt;
+}
+
+.p-content{
+	font-size: 7pt;
+}
+
+@media only screen and (min-width: 1000px){
+	.clip-adjust{
+		width: 40% !important;
+	}
+	.title{
+		font-size: 15pt;
+	}
+	.p-title{
+		font-size: 10pt;
+	}
+	.p-content{
+		font-size: 9pt;
+	}
+}
+
+
+

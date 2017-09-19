@@ -1,0 +1,18 @@
+{
+    "services": {
+        "cloudantNoSQLDB": [
+            {
+                "name": "topcopDB",
+                "label": "cloudantNoSQLDB",
+                "plan": "Lite",
+                "credentials": {
+                    "username": "72503470-a641-424d-8f01-29b3f1e4f7d1-bluemix",
+                    "password": "99a25606060fb60caf3a0be2ea93e56116c09da7f17fc91f05c7c44274647a0e",
+                    "host": "72503470-a641-424d-8f01-29b3f1e4f7d1-bluemix.cloudant.com",
+                    "port": 443,
+                    "url": "https://72503470-a641-424d-8f01-29b3f1e4f7d1-bluemix:99a25606060fb60caf3a0be2ea93e56116c09da7f17fc91f05c7c44274647a0e@72503470-a641-424d-8f01-29b3f1e4f7d1-bluemix.cloudant.com"
+                }
+            }
+        ]
+    }
+}
