@@ -29,6 +29,23 @@ function xhrGet(url, callback, errback){
 	xhr.ontimeout = errback;
 	xhr.send();
 }
+function xhrPreview(url, callback, errback){
+	var xhr = new createXHR();
+	xhr.open("GET", url, true);
+	xhr.onreadystatechange = function(){
+		if(xhr.readyState == 4){
+			if(xhr.status == 200){
+				callback(parseJson(xhr.responseText));
+			}else{
+				errback((xhr.responseText));
+			}
+		}
+	};
+	
+	xhr.timeout = 100000;
+	xhr.ontimeout = errback;
+	xhr.send();
+}
 function xhrPut(url, data, callback, errback){
 	var xhr = new createXHR();
 	xhr.open("PUT", url, true);

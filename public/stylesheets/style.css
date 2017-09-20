@@ -163,6 +163,30 @@ body,html {
 	font-size: 7pt;
 }
 
+.no-scroll{
+	overflow-y: hidden;
+}
+
+.final{
+	height: 400px;
+}
+
+.arrowleft {
+	 position: absolute; 
+	 left: 5%; 
+	 top: 50%;
+	 cursor: pointer;
+}    
+
+.arrowright {
+	 position: absolute; 
+	 right: 5%; 
+	 top: 50%;
+	 cursor: pointer;
+}
+
+
+
 @media only screen and (min-width: 1000px){
 	.clip-adjust{
 		width: 40% !important;

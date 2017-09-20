@@ -1,23 +1,25 @@
 {
-	"name": "topcop",
-	"version": "0.0.1",
-	"private": true,
-	"scripts": {
-		"start": "node app.js"
-	},
-	"dependencies": {
-		"express": "4.15.x",
-		"cfenv": "1.0.x",
-		"ejs": "latest",
-		"body-parser": "1.17.x",		
-    	"cloudant": "1.7.x",
-    	"connect-multiparty": "2.0.x",
-    	"dotenv": "^4.0.0",    
-    	"errorhandler": "1.5.x",
-    	"method-override": "2.3.x"
-	},
-	"repository": {},
-	"engines": {
-		"node": "6.x"
-	}
+  "name": "topcop",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "async": "^2.5.0",
+    "body-parser": "1.17.x",
+    "cfenv": "1.0.x",
+    "cloudant": "1.7.x",
+    "connect-multiparty": "2.0.x",
+    "dotenv": "^4.0.0",
+    "ejs": "latest",
+    "errorhandler": "1.5.x",
+    "express": "4.15.x",
+    "jquery": "^3.2.1",
+    "method-override": "2.3.x"
+  },
+  "repository": {},
+  "engines": {
+    "node": "6.x"
+  }
 }
