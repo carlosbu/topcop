@@ -37,6 +37,9 @@ app.get('/selfenablement/*', function (req, res) {
 app.get('/gallery', function(req,res){
     res.render('gallery.html');
 });
+app.get('/warmup', function(req,res){
+    res.render('warmup.html');
+});
 
 
 fs.stat('./vcap-local.json', function (err, stat) {
