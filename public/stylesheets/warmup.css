@@ -36,7 +36,7 @@ body,html {
 
 .opaco{
 	background-color: #464849;
-	opacity: 0.9;
+	opacity: 0.85;
 }
 
 .responsive-img{
@@ -53,14 +53,14 @@ body,html {
 }
 
 .no-margin2{
-	margin:0px 0px -11px 0px !important;
+	margin:-40px 0px -11px 0px !important;
 }
 
 
 
 .no-padding{
 	padding: 0 !important;
-	letter-spacing: 4px;
+	letter-spacing: 10px;
 }
 
 #teste{
@@ -82,7 +82,13 @@ body,html {
 
 @media only screen and (max-width: 500px) {
    .adjusted{
-	   padding-right: 20px !important;
+       position: relative;
+       margin-top: 40% !important;
+       height: 70% !important;
+       width: 70% !important;
+   }
+   .item{
+       font-size:10pt !important;
    }
 } 
 
