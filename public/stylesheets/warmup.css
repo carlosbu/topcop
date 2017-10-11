@@ -90,6 +90,9 @@ body,html {
    .item{
        font-size:12pt !important;
    }
+   .img-adjust{
+	   margin-top: 6% !important;
+   }
 } 
 
 
