@@ -3,8 +3,8 @@ applications:
   memory: 256M
   instances: 1
   domain: mybluemix.net
-  name: cloudwarrior
-  host: cloudwarrior
+  name: cloudwarrior2
+  host: cloudwarrior2
   disk_quota: 1024M
   services:
   - topcopDB
