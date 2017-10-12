@@ -3,8 +3,8 @@ applications:
   memory: 256M
   instances: 1
   domain: mybluemix.net
-  name: bmxtopcop
-  host: bmxtopcop
+  name: ibmcloudwarrior
+  host: ibmcloudwarrior
   disk_quota: 1024M
   services:
   - topcopDB
